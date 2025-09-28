@@ -1,6 +1,6 @@
 # VideoConverter
 
-A software to convert mkv or mp4 video files to mp4 video files readable natively on any web navigator.
+A software to convert .mkv or .mp4 video files to .mp4 video files readable natively on any web navigator.
 
 ## What makes a video readable anywhere ?
 
@@ -25,6 +25,8 @@ export QT_PATH={path_to_Qt6}/gcc_64
 cmake -DCMAKE_BUILD_TYPE=Release ..
 make -j {NB_CORES}
 ```
+
+For an integration within an IDE (other than QtCreator), be sure to set the `QT_PATH` environment variable for the project.
 
 ## How to use
 
